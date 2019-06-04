@@ -11,10 +11,10 @@ spring:
       label: master
       server:
         git:
-          uri: https://gitee.com/wuwenze/Fastjee.git
+          uri: https://github.com/caijing3210/Fastjee.git
           searchPaths: fastjee-config-repo
-          username:
-          password:
+          username: caijing3210@163.com
+          password: lj861125
 
 # 将配置中心注册到eureka实现高可用
 eureka:
