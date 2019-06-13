@@ -18,15 +18,6 @@
         <module>fastjee-authority</module>
     </modules>
 
-    <name>Fastjee</name>
-    <description>SpringCloud &amp;&amp; Vue 分布式微架构 + 前后端分离解决方案</description>
-    <developers>
-        <developer>
-            <name>吴汶泽</name>
-            <email>wenzewoo@gmail.com</email>
-        </developer>
-    </developers>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>

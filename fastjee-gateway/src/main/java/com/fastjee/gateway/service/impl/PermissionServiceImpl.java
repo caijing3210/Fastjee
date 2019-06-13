@@ -68,7 +68,7 @@ public class PermissionServiceImpl implements PermissionService {
                                                 && pathMatcher.match(url, request.getRequestURI())
                                                     && method.equalsIgnoreCase(request.getMethod());
                               });
-                        if (hasPermission) return true;
+                        if (hasPermission) {return true;}
                     }
                 }
             }
